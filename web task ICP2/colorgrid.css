@@ -1,0 +1,20 @@
+/*creating the color grid to center of the page*/
+html{
+    position: absolute;
+    top: 30%;
+    width: 100%
+}
+/*using row class to style the color grids in each of three rows*/
+.row{
+    display: flex;
+    width: 100%;
+    line-height: 30px;
+    justify-content: center;
+}
+/* grid class is used to style each grid with 70 x 70 size*/
+.grid{
+    margin: 3px;
+    align-content: center;
+    width: 70px;
+    height: 70px;
+}
